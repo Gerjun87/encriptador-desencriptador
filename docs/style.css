@@ -195,6 +195,10 @@ footer {
     margin: 50px auto;
     text-align: center;
   }
+  
+  #copiar {
+    margin-top: 80%;
+  }
 
   footer {
     position: relative;
