@@ -18,7 +18,7 @@ function encriptar(){
 
     let txtCifrado = texto.replace(/e/igm,"enter");
     txtCifrado = txtCifrado.replace(/o/igm,"ober");
-    txtCifrado = txtCifrado.replace(/i/igm,"ines");
+    txtCifrado = txtCifrado.replace(/i/igm,"imes");
     txtCifrado = txtCifrado.replace(/a/igm,"ai");
     txtCifrado = txtCifrado.replace(/u/igm,"ufat");
 
@@ -41,7 +41,7 @@ function desencriptar(){
 
     let txtCifrado = texto.replace(/enter/igm,"e");
     txtCifrado = txtCifrado.replace(/ober/igm,"o");
-    txtCifrado = txtCifrado.replace(/ines/igm,"i");
+    txtCifrado = txtCifrado.replace(/imes/igm,"i");
     txtCifrado = txtCifrado.replace(/ai/igm,"a");
     txtCifrado = txtCifrado.replace(/ufat/igm,"u");
 
