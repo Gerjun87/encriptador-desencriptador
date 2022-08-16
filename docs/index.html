@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logo-img" src="image/logo.svg" alt="Logo de la aplicación">
+        </div>
+        <div class="left">
+            <!--<input class="text-input" id="input-texto" type="text" name="" placeholder="Ingrese su texto aquí">-->
+            <textarea class="text-input" placeholder="Ingrese su texto aquí" id="input-texto" cols="30" rows="10"></textarea>
+        </div>
+        <div class="right">
+            <img class="imagen-derecha" src="image/muneco.svg" alt="Muñeco">
+            <h2 class="texto-derecha">Ningún mensaje fue encontrado</h2>
+            <textarea class="texto-area-derecho" name="" id="" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+            <button id="copiar" type="button" onclick="copiar()">¡Copiar!</button>
+        </div>
+        <div class="left-button">
+            <p>ⒾSolo minúsculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Encriptador ONE - Gerardo Sepúlveda © 2022</p>
+    </footer>
+</body>
+</html>
