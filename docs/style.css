@@ -201,8 +201,10 @@ footer {
   }
 
   footer {
-    position: relative;
-    top: 140px;
+    position: absolute;
+    top: 225%;
+    left: 20%;
+    right: 20%;
     font-size: 15px;
   }
 }
